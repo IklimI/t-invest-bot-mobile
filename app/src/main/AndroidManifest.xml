@@ -4,6 +4,7 @@
 
     <application
         android:allowBackup="false"
+        android:networkSecurityConfig="@xml/network_security_config"
         android:label="T-Invest Bot"
         android:usesCleartextTraffic="false"
         android:theme="@style/AppTheme">

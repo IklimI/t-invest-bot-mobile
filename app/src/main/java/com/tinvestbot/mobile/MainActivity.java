@@ -66,7 +66,7 @@ public class MainActivity extends Activity {
 
         TextView title = text("T-Invest Bot", 28, true);
         root.addView(title);
-        TextView subtitle = text("v0.1 · только чтение · реальные сделки отключены", 14, false);
+        TextView subtitle = text("v0.1.1 · только чтение · реальные сделки отключены", 14, false);
         subtitle.setPadding(0, dp(4), 0, dp(18));
         root.addView(subtitle);
 
